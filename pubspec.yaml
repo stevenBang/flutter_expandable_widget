@@ -1,0 +1,35 @@
+name: flutter_expandable_widget
+description: An expandable widget with the easy control expands and closes
+version: 1.0.0
+homepage: https://github.com/stevenBang/expandable_widget
+repository: https://github.com/stevenBang/expandable_widget
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: steven.hsiao.flutter_expandable_widget.flutter_expandable_widget
+        pluginClass: FlutterExpandableWidgetPlugin
+      ios:
+        pluginClass: FlutterExpandableWidgetPlugin
+      linux:
+        pluginClass: FlutterExpandableWidgetPlugin
+      macos:
+        pluginClass: FlutterExpandableWidgetPlugin
+      windows:
+        pluginClass: FlutterExpandableWidgetPluginCApi
+      #web:
+      #  pluginClass: FlutterExpandableWidgetWeb
+      #  fileName: flutter_expandable_widget_web.dart
