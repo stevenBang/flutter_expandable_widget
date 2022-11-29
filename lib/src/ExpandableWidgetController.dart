@@ -1,8 +1,8 @@
-
 import 'package:flutter/material.dart';
 
 class ExpandableWidgetController extends ChangeNotifier {
   bool _isExpanded;
+
   bool get isExpanded => _isExpanded;
 
   ExpandableWidgetController({

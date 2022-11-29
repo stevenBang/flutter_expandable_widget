@@ -1,18 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_expandable_widget/flutter_expandable_widget.dart';
 
-///expansion direction
-enum ExpansionDirection {
-  expandDown,
-  expandUp,
-}
-
-///setting trail's position
-enum TrailingPosition {
-  left,
-  right,
-}
-
 class ExpandableWidget extends StatefulWidget {
   const ExpandableWidget({
     Key? key,
@@ -259,4 +247,16 @@ class _ExpandableWidgetState extends State<ExpandableWidget> {
       child: controller.isExpanded ? widget.content : const SizedBox(),
     );
   }
+}
+
+///expansion direction
+enum ExpansionDirection {
+  expandDown,
+  expandUp,
+}
+
+///setting trail's position
+enum TrailingPosition {
+  left,
+  right,
 }
