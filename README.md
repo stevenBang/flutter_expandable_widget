@@ -11,7 +11,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  flutter_expandable_widget: ^1.0.4
+  flutter_expandable_widget: ^1.0.5
 ```
 
 

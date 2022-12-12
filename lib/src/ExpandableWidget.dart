@@ -189,11 +189,11 @@ class _ExpandableWidgetState extends State<ExpandableWidget> {
   Widget getTitle() {
     List<Widget> titleRow = [];
     if (widget.trailingPosition == TrailingPosition.right) {
-      titleRow.add(Expanded(child: widget.title));
+      titleRow.add(widget.title);
       titleRow.add(getTrailing());
     } else {
       titleRow.add(getTrailing());
-      titleRow.add(Expanded(child: widget.title));
+      titleRow.add(widget.title);
     }
 
     return GestureDetector(
